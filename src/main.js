@@ -192,19 +192,27 @@
 // trafficLight()
 
 /////////////////////////////////////////////////////////////////////////
-function check(username, password) {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      if (username === 'ndtam' && password === '1111') resolve(true)
-      else resolve(false)
-    })
-  })
-}
-async function login(username, password) {
-  const isValid = await check(username, password)
-  return isValid ? 'Dang nhap thanh cong' : 'Sai'
-}
+// function check(username, password) {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       if (username === 'ndtam' && password === '1111') resolve(true)
+//       else resolve(false)
+//     })
+//   })
+// }
+// async function login(username, password) {
+//   const isValid = await check(username, password)
+//   return isValid ? 'Dang nhap thanh cong' : 'Sai'
+// }
 
-login('ndtam', '1111').then(console.log)
-login('ndta', '1111').then(console.log)
-login('ndta', '1111').then(console.log)
+// login('ndtam', '1111').then(console.log)
+// login('ndta', '1111').then(console.log)
+// login('ndta', '1111').then(console.log)
+
+//////////////////////////////////////////////////////////////
+// import { users, addUser, findUser } from "./user.js";
+// const u1 = findUser('john@example.com');
+// console.log(u1);
+// console.log(users.length)
+
+///////////////////////////////////////////////////////////////
